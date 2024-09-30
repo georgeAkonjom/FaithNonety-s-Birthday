@@ -1,6 +1,10 @@
 body {
-background: rgb(255,249,237);
-background: linear-gradient(83deg, rgba(255,249,237,1) 0%, rgba(253,187,45,1) 100%);
+	background: rgb(255, 249, 237);
+	background: linear-gradient(
+		83deg,
+		rgba(255, 249, 237, 1) 0%,
+		rgba(253, 187, 45, 1) 100%
+	);
 }
 
 /* THE MAINCONTAINER HOLDS EVERYTHING */
@@ -27,7 +31,7 @@ background: linear-gradient(83deg, rgba(255,249,237,1) 0%, rgba(253,187,45,1) 10
 	}
 }
 
-.call-out{
+.call-out {
 	font-size: 1rem;
 	font-family: "Great Vibes", cursive;
 }
@@ -105,8 +109,8 @@ background: linear-gradient(83deg, rgba(255,249,237,1) 0%, rgba(253,187,45,1) 10
 	text-align: center;
 }
 
-.thefront .call-out{
-	font-family: 'Courier New', Courier, monospace;
-	font-size: .6rem;
+.thefront .call-out {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 0.6rem;
 }
 /*This block (ends here) is merely styling for the flip card, and is NOT an essential part of the flip code */
