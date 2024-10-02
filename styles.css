@@ -1,10 +1,33 @@
 body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background: rgb(255, 249, 237);
 	background: linear-gradient(
 		83deg,
 		rgba(255, 249, 237, 1) 0%,
 		rgba(253, 187, 45, 1) 100%
 	);
+}
+
+.button {
+	position: relative;
+	top: 90vh;
+	background-color: #c30066;
+	font-weight: bold;
+	font-family: "Open Sans", sans-serif;
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	cursor: pointer;
+	color: white;
+	z-index: 10000;
+}
+
+a{
+	all: unset;
 }
 
 /* THE MAINCONTAINER HOLDS EVERYTHING */
