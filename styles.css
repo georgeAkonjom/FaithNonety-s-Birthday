@@ -12,7 +12,7 @@ body {
 
 .button {
 	position: relative;
-	top: 90vh;
+	top: 80vh;
 	background-color: #c30066;
 	font-weight: bold;
 	font-family: "Open Sans", sans-serif;
@@ -34,7 +34,7 @@ a{
 .maincontainer {
 	position: absolute;
 	background: none;
-	top: 50%;
+	top: 38%;
 	left: 50%;
 	text-align: center;
 	transform: translate(-50%, -50%);
